@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HorneArte</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>𝓗𝓸𝓻𝓷𝓮𝓐𝓻𝓽𝓮</h1>
+    <nav>
+      <ul>
+        <li><a href="#galletas">Galletas</a></li>
+        <li><a href="#tortas">Cakes</a></li>
+        <li><a href="#bake">Bake</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="galletas" class="product-section">
+    <h2 class="ribbon-title">
+      <span class="ribbon-content">Galletas</span>
+    </h2>
+    <div class="swiper swiperGalletas">
+      <div class="swiper-wrapper">
+        <!-- Primer slide -->
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://www.bakeandshare.com/wp-content/uploads/2022/07/galletas-chispas-chocolate-4.jpg"
+              alt="Galleta de chispas">
+            <h3>Chispas de chocolate</h3>
+            <p class="price">S/ 5.99</p>
+            <p class="description">Los sabores clásicos nunca se olvidan.</p>
+            <button class="add-to-cart" data-id="1" data-name="Chispas de chocolate" data-price="5.99">Añadir al Carrito</button>
+          </div>
+        </div>
+
+        <!-- Segundo slide -->
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://comebonito.cl/cdn/shop/articles/20230511183454-galleta-20brownie-6.jpg?v=1684786221"
+              alt="Chocolate">
+            <h3>Galleta de chocolate</h3>
+            <p class="price">S/ 4.99</p>
+            <p class="description">Cada bocado es un deleite.</p>
+            <button class="add-to-cart" data-id="2" data-name="Galleta de chocolate" data-price="4.99">Añadir al Carrito</button>
+          </div>
+        </div>
+
+        <!-- Tercer slide -->
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://tofuu.getjusto.com/orioneat-prod/zSuJdrto64c96ZnGz-RedVelvet.jpg" alt="Red velvet">
+            <h3>Red velvet</h3>
+            <p class="price">S/ 4.99</p>
+            <p class="description">Sabores que enamoran!</p>
+            <button class="add-to-cart" data-id="3" data-name="Red velvet" data-price="4.99">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <!-- Sección de Tortas -->
+  <section id="tortas" class="product-section">
+    <h2 class="ribbon-title">
+      <span class="ribbon-content">Cakes</span>
+    </h2>
+    <div class="swiper swiperTortas">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://www.parati.com.ar/wp-content/uploads/2024/06/Diseno-sin-titulo-6-3-749x561.jpg.webp?v=2"
+              alt="Torta de Chocolate">
+            <h3>Torta de Chocolate</h3>
+            <p class="price">S/ 19.99</p>
+            <p class="description">Esponjosa torta de chocolate con ganache de chocolate amargo.</p>
+            <button class="add-to-cart" data-id="4" data-name="Torta de Chocolate" data-price="19.99">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img
+              src="https://cdn.allotta.io/image/upload/v1707363148/dxp-images/brands/Recipes/canada-recipe-assets-final/philadelphia-new-york-cheesecake/philadelphia-new-york-cheesecake-503035.jpg"
+              alt="Cheesecake">
+            <h3>Cheesecake de Fresa</h3>
+            <p class="price">S/ 22.99</p>
+            <p class="description">Cremoso cheesecake con topping de fresas frescas.</p>
+            <button class="add-to-cart" data-id="5" data-name="Cheesecake de Fresa" data-price="22.99">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://www.pucheromix.com/wp-content/uploads/2024/03/carrot-cake.jpg" alt="Carrot cake">
+            <h3>Carrot cake</h3>
+            <p class="price">S/ 20.50</p>
+            <p class="description">Deliciosa y esponjosa con un frosting de queso crema</p>
+            <button class="add-to-cart" data-id="6" data-name="Carrot cake" data-price="20.50">Añadir al Carrito</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- Navegación del carrusel -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <!-- Sección de Bake -->
+  <section id="bake" class="product-section">
+    <h2 class="ribbon-title">
+      <span class="ribbon-content">Bake</span>
+    </h2>
+    <div class="swiper swiperBake">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://www.hola.com/horizon/landscape/918cb28d3a78-pan-leche-t.jpg" alt="Pan de leche">
+            <h3>Pan de leche</h3>
+            <p class="price">S/ 7.99</p>
+            <p class="description">Pan recién horneado con masa madre.</p>
+            <button class="add-to-cart" data-id="7" data-name="Pan de leche" data-price="7.99">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://www.madreamiga.com/cdn/shop/files/Copiadecroissantclasico_1024x1024.jpg?v=1728302776"
+              alt="Croissant">
+            <h3>Croissant de Mantequilla</h3>
+            <p class="price">S/ 4.50</p>
+            <p class="description">Croissant hojaldrado con mantequilla francesa.</p>
+            <button class="add-to-cart" data-id="8" data-name="Croissant de Mantequilla" data-price="4.50">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://www.tastesoflizzyt.com/wp-content/uploads/2022/10/giant-cinnamon-rolls-11.jpg"
+              alt="Cinnamon rolls">
+            <h3>Cinnamon Rolls</h3>
+            <p class="price">S/ 9.50</p>
+            <p class="description">La mezcla de los sabores hacen que sea el favorito de todos</p>
+            <button class="add-to-cart" data-id="9" data-name="Cinnamon Rolls" data-price="9.50">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+      <!-- Navegación del carrusel -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <!-- Sección de Pedido con el nuevo estilo -->
+  <section id="order">
+    <div class="cart-summary">
+      <h2>Tu Pedido</h2>
+      <div id="cart-items">
+        <!-- Aquí se mostrarán los items del carrito dinámicamente -->
+      </div>
+      <div id="cart-total">
+        <p>Total: <span id="total-amount">S/ 0.00</span></p>
+      </div>
+      <button id="whatsappBtn">Finalizar Pedido</button>
+    </div>
+  </section>  
+  
+  <footer>
+    <p>© 2025 HorneArte. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
