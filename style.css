@@ -57,7 +57,8 @@ header::before {
   z-index: 1;
 }
 
-header h1, header nav {
+header h1,
+header nav {
   position: relative;
   z-index: 2;
 }
@@ -138,7 +139,7 @@ header nav ul li a:hover {
   position: absolute;
   display: block;
   border-style: solid;
-  border-color:  #e66763 transparent transparent transparent;
+  border-color: #e66763 transparent transparent transparent;
   bottom: -1rem;
 }
 
@@ -182,9 +183,7 @@ header nav ul li a:hover {
   position: relative;
 }
 
-.product-card:hover {
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
-}
+
 
 .product-card img {
   width: 100%;
@@ -243,27 +242,21 @@ header nav ul li a:hover {
   letter-spacing: 1.5px;
 }
 
-/* Carrusel de productos */
-.swiper {
-  width: 100%;
-  padding-bottom: 50px;
-}
-
 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Navegación del carrusel */
-.swiper-button-next,
-.swiper-button-prev {
-  color: var(--primary-color);
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.swiper-pagination-bullet-active {
-  background-color: var(--primary-color);
-}
 
 /* Sección de pedido */
 #order {
@@ -505,11 +498,11 @@ footer p {
     flex-direction: column;
     gap: 0.5rem;
   }
-  
+
   header nav ul li {
     margin: 5px 0;
   }
-  
+
   .ribbon-title {
     max-width: 220px;
     font-size: 1.4rem;
@@ -518,16 +511,16 @@ footer p {
   .product-card {
     max-width: 280px;
   }
-  
+
   .product-card img {
     height: 180px;
   }
-  
+
   .cart-summary {
     padding: 20px;
     margin: 0 15px;
   }
-  
+
   footer .social-media {
     flex-direction: column;
     gap: 15px;
@@ -538,17 +531,17 @@ footer p {
   header h1 {
     font-size: 2.2rem;
   }
-  
+
   .ribbon-title {
     max-width: 200px;
     font-size: 1.2rem;
     padding: 0.8rem 1.5rem;
   }
-  
+
   .product-card {
     max-width: 100%;
   }
-  
+
   #whatsappBtn {
     padding: 12px 20px;
     font-size: 1em;
